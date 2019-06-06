@@ -1,0 +1,78 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.header__logo{
+    width: 8%;
+    margin: 3rem;
+}
+
+.header {
+    height: 85vh;
+    background-image: linear-gradient(
+        to right bottom,
+    rgba(0, 43, 52, .7),
+    rgba(242, 212, 127, .3)),
+    url(./images/background-calm-clouds-747964.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    margin: 25px;
+}
+
+.heading-primary {
+    
+    text-align: center;
+    font-size: 8rem;
+    color: whitesmoke;
+    text-shadow: 2px 2px 40px #565656;
+}
+
+.heading-primary--main{
+    font-weight: 600;
+}
+
+.heading-primary--sub {
+    font-weight: 600;
+}
+
+.tagline {
+    font-weight: 400;
+    text-align: center;
+    font-size: 4rem;
+    color: whitesmoke;
+    text-shadow: 2px 2px 50px #565656;
+}
+
+.about-box {
+    margin: 20rem;
+}
+
+.about-primary {
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+    position: relative;
+}
+
+.about-secondary {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    position: relative;
+}
